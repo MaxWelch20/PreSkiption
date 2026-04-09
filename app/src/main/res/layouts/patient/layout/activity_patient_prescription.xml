@@ -8,24 +8,26 @@
 
     <TextView
         android:id="@+id/Ttitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Verify your prescription details"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textIsSelectable="false"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
+        android:id="@+id/pharmacyInfoFrame"
         android:layout_width="380dp"
         android:layout_height="200dp"
-        android:layout_marginStart="4dp"
         android:layout_marginTop="88dp"
         android:background="@drawable/frame_layout_square_blue"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,37 +35,39 @@
         android:id="@+id/frameLayout2"
         android:layout_width="380dp"
         android:layout_height="200dp"
-        android:layout_marginStart="4dp"
         android:layout_marginTop="340dp"
         android:background="@drawable/frame_layout_square_blue"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/PharmacyInfoTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
         android:layout_marginTop="60dp"
         android:text="Pharmacy Information"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textIsSelectable="false"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/prescriptonDetailsTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
         android:layout_marginTop="312dp"
         android:text="Prescription Details"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textIsSelectable="false"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -71,7 +75,6 @@
         android:id="@+id/joinQueueButton"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/frame_layout_square_blue"
 
@@ -79,6 +82,7 @@
         android:textColor="@color/white"
         android:textColorLink="@color/blue"
         android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
 

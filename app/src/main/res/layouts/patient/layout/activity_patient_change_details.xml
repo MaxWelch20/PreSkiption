@@ -9,14 +9,15 @@
 
     <TextView
         android:id="@+id/patientSignupTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
         android:layout_marginTop="40dp"
         android:text="Change Details"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,12 +25,12 @@
         android:id="@+id/lastNameText"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="text"
         android:text="Last Name"
         android:textColor="#949494"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstNameText" />
 
@@ -37,12 +38,12 @@
         android:id="@+id/firstNameText"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="140dp"
         android:ems="10"
         android:inputType="text"
         android:text="First Name"
         android:textColor="#949494"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,12 +51,12 @@
         android:id="@+id/dobText"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="text"
         android:text="Date of Birth dd/mm/yyyy"
         android:textColor="#949494"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lastNameText" />
 
@@ -63,12 +64,12 @@
         android:id="@+id/emailAddressText"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="Email Address"
         android:textColor="#949494"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dobText" />
 
@@ -76,12 +77,12 @@
         android:id="@+id/phoneText"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="phone"
         android:text="Phone Number"
         android:textColor="#949494"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailAddressText" />
 
@@ -90,12 +91,12 @@
         style="@style/Widget.AppCompat.EditText"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
         android:textColor="#949494"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phoneText" />
 
@@ -103,12 +104,12 @@
         android:id="@+id/saveChangesButton"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="88dp"
         android:background="@drawable/frame_layout_square_blue"
         android:text="Save Changes"
         android:textColor="@color/white"
         android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordText" />
 
